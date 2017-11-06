@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgb(252, 252, 249);
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  transform: translateY(0vh);
+  margin-right: 10px;
+}
+
+button{
+  width:70%;
+  margin-top: 15px;
+}
+
+.post{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 70%;
+  text-align: center;
+  margin: 0;
+  border-top: 1px dashed lightgrey;
+  border-bottom: 1px dashed lightgrey;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color:lightgrey;
+}
+
+div.imageContainer {
+  width: 70px;
+  height:70px;
+  border:2px solid grey;
+  display:flex;
+  justify-content:center;
+  overflow:hidden;
+  margin-right: 10px;
+}
+
+div.imageContainer img,a{
+  flex-grow:0;
+
+  max-width:150%;
+  max-height:100%;
+}
